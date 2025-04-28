@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#cardPreview {
+    width: 400px;
+    height: 225px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+#cardContent {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
